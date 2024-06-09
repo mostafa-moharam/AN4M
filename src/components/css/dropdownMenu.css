@@ -1,0 +1,72 @@
+.dropdownMenu{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 2px 8px;
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    align-items: center;
+    overflow: visible;
+    transition: 0.25s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dropdownMenu img{
+    height: 15px;
+    margin-right: 7px;
+    margin-top: -6px;
+    transition: all ease 0.25s;
+}
+.dropdownMenu:hover img{
+    transform: rotate(90deg) translateZ(0);
+}
+.dropdownMenu p{
+    margin: 2px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    width: max-content;
+}
+.dropdownMenu:hover{
+    color: white;
+    background-color:#515b69 ;
+}
+.dropdownMenu:hover + .Categories{
+    display: grid;
+    position: absolute;
+    background-color: #303843;
+    height: max-content;
+    width: 150px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.Categories:hover{
+    display: grid;
+    position: absolute;
+    background-color: #303843;
+    height: max-content;
+    width: 150px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.Categories{
+    display: none;
+    z-index: 2;
+}
+.Categories a{
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: white;
+}
+.Categories a:hover{
+    padding: 10px 20px;
+    background-color:#515b69 ;
+}
+.active{
+    color: #f0481e !important;
+}
+.active:hover{
+    color: #f0481e;
+}

@@ -1,0 +1,36 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  padding: 80px 10px;
+}
+.pageContent {
+  display: flex;
+  padding: 80px 30px 10px 30px;
+}
+.cardContainer {
+  min-height: 100vh;
+  margin-left: 20px;
+  height: fit-content;
+  width: -moz-available;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pagination {
+  background-color: rgba(255, 255, 255, 0.71);
+  padding: 2px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px white;
+}

@@ -1,0 +1,14 @@
+.Sign {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  font-size: 20px;
+  flex-direction: column;
+  align-self: auto;
+}
+.Sign a {
+  display: flex;
+  justify-content: start;
+}

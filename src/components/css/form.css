@@ -1,0 +1,66 @@
+.LoginForm {
+  display: flex;
+  justify-content: start;
+}
+.loginField {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.loginField input {
+  margin-left: 5px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.loginField input:-webkit-autofill,
+.loginField input:-webkit-autofill:hover,
+.loginField input:-webkit-autofill:focus,
+.loginField input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  color: rgb(139, 61, 61);
+  background-color: antiquewhite;
+}
+.loginField input::placeholder {
+  color: hsla(0, 0%, 25%, 0.65);
+}
+.submit {
+  display: flex;
+  justify-content: end;
+}
+.submit button {
+  background-color: #3d3c3c;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 0px 8px;
+  transition: 0.25s;
+}
+.submit button:hover {
+  background-color: black;
+  padding: 0px 10px;
+}
+.formLink {
+  color: #3d3c3c;
+  width: fit-content;
+}
+.formLink:hover {
+  color: black;
+}
+.signPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.MuiAlert-message {
+  width: 300px;
+}
+.alert {
+  position: absolute;
+  bottom: 180px;
+  display: flex;
+  flex-direction: column;
+}

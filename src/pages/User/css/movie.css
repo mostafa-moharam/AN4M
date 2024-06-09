@@ -1,0 +1,107 @@
+.movie {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  padding: 80px 10px 10px 20px;
+}
+.movieContent {
+  padding: 0px 30px;
+  margin: 0px 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.321) 0%,
+    rgba(0, 0, 0, 0.583) 100%
+  );
+  border-radius: 20px;
+}
+.movieInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 70px;
+}
+.movieTitle {
+  color: white;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+.overview {
+  max-width: 85%;
+}
+.production {
+  display: flex;
+}
+.companies {
+  margin-right: 100px;
+}
+.movieDetails p {
+  font-size: 18px;
+}
+.movieCard {
+  width: 300px;
+  min-width: 300px;
+  height: 444px;
+  overflow: hidden;
+  position: relative;
+}
+.movieCard:hover .movieCategories a {
+  opacity: 1;
+  bottom: 0;
+  font-size: 22px;
+  padding: 0px 5px;
+}
+.movieCard .movieCategories a:hover {
+  padding: 0px 10px;
+}
+.movieCard:hover .cardTitle {
+  opacity: 1;
+  top: 0;
+}
+.openButton {
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  border: 0;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.openButton svg {
+  font-size: 12px;
+}
+.rating {
+  background-color: #334254d0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: #737c95d0 2px solid;
+  border-radius: 20px;
+  width: fit-content;
+}
+.Recommendations {
+  margin: 10px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.categories a {
+  text-decoration: none;
+  color: white;
+  margin: 2px 5px 2px 0px;
+  transition: 0.2s;
+}
+.categories a:hover {
+  color: #eee7e7;
+}

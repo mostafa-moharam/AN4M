@@ -1,0 +1,75 @@
+.genresList {
+  min-width: 250px;
+}
+.genres {
+  width: 250px;
+  position: fixed;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 0px;
+  background: #000000a1;
+}
+.genresList ul {
+  list-style: none;
+  height: 55vh;
+  overflow-y: auto;
+  padding: 0px;
+}
+.genresList h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background: transparent;
+  font-size: 24px;
+  border-radius: 20px 20px 0px 0px;
+}
+.genresList .link {
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #24283165;
+  font-size: 18px;
+  transition: all ease-in-out 0.25s;
+}
+.link:hover {
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: rgb(240, 72, 30);
+}
+/* .genresList .toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #242831;
+ }
+.genresList .toggler div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.genresList .toggler .arrow {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.subList {
+  overflow: hidden;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  border-left: 10px solid #242831;
+}
+ */
