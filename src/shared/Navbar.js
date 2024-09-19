@@ -9,6 +9,7 @@ import Search from "../components/Search";
 import logo from "../asset/icons/logo.jpg";
 import { setLogout } from "../store/authSlice";
 import { PiSignOutBold } from "react-icons/pi";
+import { GrDocumentTest } from "react-icons/gr";
 
 const Navbar = () => {
   const { user, isAuthenticated } = useSelector((state) => state.auth);

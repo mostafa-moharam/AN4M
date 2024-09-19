@@ -7,7 +7,6 @@ import Categories from "./pages/User/Categories";
 import LogIn from "./pages/User/LogIn";
 import Register from "./pages/User/Register";
 import Recommendations from "./pages/User/Recommendations";
-import Overlay from "./components/Overlay";
 
 const router = createBrowserRouter([
   {
@@ -41,10 +40,6 @@ const router = createBrowserRouter([
       {
         path: "all movies",
         element: <AllMovies />,
-      },
-      {
-        path: "test",
-        element: <Overlay />,
       },
     ],
   },

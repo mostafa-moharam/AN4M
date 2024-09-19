@@ -18,9 +18,9 @@ if (token) {
 
 const authSlice = createSlice({
   name: "auth",
-  initialState: initialState,
+  initialState,
   reducers: {
-    setAuth: (state, action) => {
+    setAuth: (state) => {
       const token = Cookies.get("token");
       if (token) {
         state.isAuthenticated = token ? true : false;

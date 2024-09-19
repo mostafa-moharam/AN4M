@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useListGenresQuery } from "../store/movieApiSlice";
 import LinkComponent from "./LinkComponent";
 import "./css/genresList.css";
@@ -12,7 +13,13 @@ const GenresList = () => {
           <nav>
             <ul>
               {data?.genres?.map((link) => (
-                <LinkComponent key={link.id} id={link.id} name={link.name} />
+                <Link
+                  className="genresLink"
+                  key={link.id}
+                  to={"/category/" + link.id + "?page=1"}
+                >
+                  {link.name}
+                </Link>
               ))}
             </ul>
           </nav>

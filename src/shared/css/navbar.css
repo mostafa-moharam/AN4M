@@ -110,10 +110,11 @@
   text-align: center;
   color: white;
   font-size: 45px;
-  transition: 0.4s;
+  transition: 0.6s;
+  text-decoration: none;
 }
 .Button:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
   color: white;
 }
 .favButton {
@@ -122,10 +123,10 @@
   text-align: center;
   color: white;
   font-size: 50px;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 .favButton:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
   color: white;
 }
 .loginButton {
@@ -134,10 +135,10 @@
   margin-left: 10%;
   margin-right: 2%;
   float: inline-end;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 .loginButton:hover {
-  transform: rotateY(180deg);
+  transform: rotateY(360deg);
   color: white;
 }
 .logSection {
@@ -168,8 +169,8 @@
 }
 .active {
   color: #f0481e;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 .active:hover {
-  color: #ffffff;
+  color: #f0481e;
 }

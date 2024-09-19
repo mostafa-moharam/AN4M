@@ -5,7 +5,7 @@ export const movieApiSlice = apiSlice.injectEndpoints({
     pages: builder.query({
       query: (page) => {
         return {
-          url: `${baseUrl}/discover/movie?page=${page}&api_key=1462ca39f0670599390d22b7dcefa9e8`,
+          url: `${baseUrl}discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&api_key=1462ca39f0670599390d22b7dcefa9e8`,
         };
       },
     }),
@@ -33,7 +33,7 @@ export const movieApiSlice = apiSlice.injectEndpoints({
     topRated: builder.query({
       query: () => {
         return {
-          url: `${baseUrl}/movie/top_rated?language=en-US&page=1&api_key=1462ca39f0670599390d22b7dcefa9e8`,
+          url: `${baseUrl}movie/top_rated?language=en-US&page=1&api_key=1462ca39f0670599390d22b7dcefa9e8`,
         };
       },
     }),
@@ -52,7 +52,7 @@ export const movieApiSlice = apiSlice.injectEndpoints({
             url: `${baseUrl}search/movie?query=${search}&include_adult=false&language=en-US&page=${page}&api_key=1462ca39f0670599390d22b7dcefa9e8`,
           };
         return {
-          url: `${baseUrl}/discover/movie?page=${page}&api_key=1462ca39f0670599390d22b7dcefa9e8`,
+          url: `${baseUrl}discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc&api_key=1462ca39f0670599390d22b7dcefa9e8`,
         };
       },
     }),
