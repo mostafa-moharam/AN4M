@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useListGenresQuery } from "../store/movieApiSlice";
-import LinkComponent from "./LinkComponent";
 import "./css/genresList.css";
 
 const GenresList = () => {
